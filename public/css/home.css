@@ -1,0 +1,73 @@
+.navbar {
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    position: sticky !important;
+}
+
+.navbar-brand h3 {
+    font-family: 'monoton';
+    font-weight: 550;
+}
+
+.navbar-nav li {
+    padding: .55rem !important;
+}
+
+.navbar-nav li a {
+    color: rgb(31, 30, 30);
+    font-size: 95%;
+}
+
+.navbar-nav li:hover a {
+    text-decoration: underline !important;
+    text-decoration-thickness: 1px !important;
+    text-underline-offset: .5rem;
+    text-decoration-color: #4d4d4d;
+}
+
+.navbar-nav li a:hover {
+    color: #464646;
+}
+
+.navbar-nav li a.active {
+    color: #000000;
+}
+
+#hero {
+    min-height: 70vh;
+    background: url('https://citralandtallasacity.com//wp-content//uploads//2022//12//Citraland-Talasa-City-Makasar-view-06-1-scaled-1.jpg');
+    background-size: cover;
+}
+
+#hero .hero-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#ffffff00, #02ff0285);
+}
+
+#hero .hero-text h1 {
+    font-weight: 700;
+}
+
+main #tentang {
+    min-height: 100vh;
+    background: linear-gradient(#02ff02d7, white);
+}
+
+main #tentang #peta {
+    display: flex;
+    justify-content: center;
+}
+
+main #tentang #peta iframe {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: -80px !important;
+    border: 8px solid #00ff00be !important;
+    border-bottom: none !important;
+}
